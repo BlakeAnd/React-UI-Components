@@ -1,1 +1,54 @@
 /* All styles for your Card Components live here */
+a{
+    text-decoration: none;
+    color: black;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+.icon img{
+    width: 60px;
+    padding: 20px;
+}
+.top-bar{
+    display: flex;
+}
+.top-text{
+    display: flex;
+    color: grey;
+    padding:10px;
+}
+.top-text p{
+    margin-left: 5px;
+}
+.paragraph{
+    margin-top: -20px;
+}
+.banner{
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    
+}
+.banner img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 100%;
+}
+.banner-text{
+    padding: 8px;
+}
+.banner-text h5{
+    font-size: 1rem;
+    margin: 0;
+}
+.banner-text p{
+    font-size: 0.8rem;
+}
+.banner-text h6{
+    font-size: 0.8rem;
+    font-weight:200;
+    color: grey;
+    margin:0;
+}
